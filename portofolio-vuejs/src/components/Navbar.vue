@@ -5,7 +5,7 @@
 
         <div class="flex-shrink-0">
           <a href="#" class="text-2xl font-bold text-gray-900 ">
-            TubsAMY
+            Tubagus Aldi
           </a>
         </div>
 
@@ -16,7 +16,7 @@
         </div>
 
         <div class="hidden md:block">
-          <a href="#contact" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300">
+          <a href="#contact" class="px-4 py-2 text-sm font-medium text-gray-900 bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300">
             Hubungi Saya
           </a>
         </div>

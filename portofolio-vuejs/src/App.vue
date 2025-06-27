@@ -1,12 +1,18 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
 import HeroSection from './components/HeroSection.vue';
+import AboutSection from './components/AboutSection.vue';
+import ProjectsSection from "./components/ProjectsSection.vue";
 </script>
 
 <template>
   <div id="app" class="bg-gray-50  min-h-screen">
     <Navbar />
-    <HeroSection />
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
+    </main>
   </div>
 </template>
 

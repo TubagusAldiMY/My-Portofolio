@@ -34,7 +34,7 @@
         <div class="flex justify-center">
           <div class="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden shadow-lg border-4 border-white dark:border-gray-800">
             <img
-                src="../assets/tubsamy.png"
+                src="../assets/tubs.jpg"
                 alt="Foto profil Tubagus Aldi"
                 class="w-full h-full object-cover"
             >

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section id="home" class="min-h-screen flex items-center bg-gray-50 ">
+  <section id="home" class="min-h-screen flex items-center bg-gray-50 " v-scroll-animation>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-0">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
@@ -25,8 +25,10 @@
             <a href="#projects" class="px-6 py-3 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
               Lihat Proyek
             </a>
-            <a href="#contact" class="px-6 py-3 font-semibold text-gray-800 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-gray-300  transition-all duration-300">
-              Hubungi Saya
+            <a href="/Resume-tubsamy.pdf"
+               download="CV-Tubagus-Aldi-M-Y.pdf"
+               class="px-6 py-3 font-semibold text-gray-800 bg-gray-200 rounded-lg hover:bg-gray-300 transition-all duration-300">
+              Unduh Resume
             </a>
           </div>
         </div>

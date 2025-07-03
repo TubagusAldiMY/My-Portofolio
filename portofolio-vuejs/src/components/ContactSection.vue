@@ -32,7 +32,7 @@ const handleSubmit = () => {
 </script>
 
 <template>
-  <section id="contact" class="py-20 sm:py-32 bg-gray-100 ">
+  <section id="contact" class="py-20 sm:py-32 bg-gray-150 ">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
 
       <div class="text-center mb-16">
@@ -60,21 +60,21 @@ const handleSubmit = () => {
         </div>
 
         <div class="w-full">
-          <form @submit.prevent="handleSubmit">
+          <form action="https://formspree.io/f/xldnzdaq" method="POST">
             <div class="space-y-5">
               <div>
-                <label for="name" class="font-semibold text-sm text-gray-700">Nama Lengkap</label>
-                <input v-model="form.name" type="text" id="name" name="name" required class="mt-2 block w-full px-4 py-2 bg-gray-100  border border-gray-200 dark:border-gray-700 rounded-md focus:ring-blue-500 focus:border-blue-500 transition">
+                <label for="name" class="block font-semibold text-sm text-gray-700">Nama Lengkap</label>
+                <input v-model="form.name" type="text" id="name" name="name" required class="mt-2 block w-full px-4 py-2 bg-gray-100 border border-gray-200 rounded-md focus:ring-blue-500 focus:border-blue-500 transition">
               </div>
               <div>
-                <label for="email" class="font-semibold text-sm text-gray-700">Alamat Email</label>
-                <input v-model="form.email" type="email" id="email" name="email" required class="mt-2 block w-full px-4 py-2 bg-gray-100  border border-gray-200 dark:border-gray-700 rounded-md focus:ring-blue-500 focus:border-blue-500 transition">
+                <label for="email" class="block font-semibold text-sm text-gray-700">Alamat Email</label>
+                <input v-model="form.email" type="email" id="email" name="_replyto" required class="mt-2 block w-full px-4 py-2 bg-gray-100 border border-gray-200 rounded-md focus:ring-blue-500 focus:border-blue-500 transition">
               </div>
               <div>
-                <label for="message" class="font-semibold text-sm text-gray-700">Pesan Anda</label>
-                <textarea v-model="form.message" id="message" name="message" rows="5" required class="mt-2 block w-full px-4 py-2 bg-gray-100  border border-gray-200 dark:border-gray-700 rounded-md focus:ring-blue-500 focus:border-blue-500 transition"></textarea>
+                <label for="message" class="block font-semibold text-sm text-gray-700">Pesan Anda</label>
+                <textarea v-model="form.message" id="message" name="message" rows="5" required class="mt-2 block w-full px-4 py-2 bg-gray-100 border border-gray-200 rounded-md focus:ring-blue-500 focus:border-blue-500 transition"></textarea>
               </div>
-              <button type="submit" class="w-full px-6 py-3 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 dark:focus:ring-offset-gray-900 focus:ring-blue-500">
+              <button type="submit" class="w-full px-6 py-3 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-blue-500">
                 Kirim Pesan
               </button>
             </div>

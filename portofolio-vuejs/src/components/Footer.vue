@@ -33,12 +33,7 @@ const socialLinks = ref([
 
       <div class="text-center text-sm">
         <span class="block">
-          © {{ currentYear }} <a href="#home" class="hover:underline">YourName.</a> All Rights Reserved.
-        </span>
-        <span class="block mt-2 text-xs text-gray-500">
-          Dibuat dengan <span class="text-red-400">❤</span> menggunakan
-          <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Vue.js</a> &
-          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Tailwind CSS</a>.
+          © {{ currentYear }} <a href="#home" class="hover:underline">Tubagus Aldi.</a> All Rights Reserved.
         </span>
       </div>
 

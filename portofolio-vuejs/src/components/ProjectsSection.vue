@@ -33,7 +33,7 @@ const projects = ref([
 </script>
 
 <template>
-  <section id="projects" class="py-20 sm:py-32 bg-gray-50 ">
+  <section id="projects" class="py-20 sm:py-32 bg-gray-50 " v-scroll-animation>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
 
       <div class="text-center mb-16">

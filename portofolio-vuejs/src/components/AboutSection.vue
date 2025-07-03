@@ -8,7 +8,7 @@ const techStack = ref([
 </script>
 
 <template>
-  <section id="about" class="py-20 sm:py-32 bg-gray-50 ">
+  <section id="about" class="py-20 sm:py-32 bg-gray-50 " v-scroll-animation>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
 
       <div class="text-center mb-12">
@@ -38,10 +38,10 @@ const techStack = ref([
             Perjalanan Saya di Dunia Digital
           </h3>
           <p class="text-gray-600  mb-6 leading-relaxed">
-            Sejak kecil, saya selalu terpesona dengan bagaimana teknologi dapat memecahkan masalah nyata. Perjalanan saya dimulai dengan memodifikasi game sederhana, yang kemudian menuntun saya ke dunia pengembangan web. Bagi saya, coding bukan hanya tentang menulis baris perintah, tetapi tentang seni menciptakan pengalaman yang fungsional dan menyenangkan bagi pengguna.
+            Saya adalah seorang Machine Learning Engineer dan Web Developer yang bersemangat. Sejak kecil, saya selalu tertarik dengan teknologi dan bagaimana cara kerjanya. Perjalanan saya dimulai dengan belajar HTML dan CSS, lalu berkembang ke JavaScript dan framework modern seperti Vue.js.
           </p>
           <p class="text-gray-600  mb-8 leading-relaxed">
-            Saya percaya bahwa produk digital terbaik lahir dari kolaborasi, empati terhadap pengguna, dan perhatian tulus terhadap detail.
+            Saat ini, saya fokus pada pengembangan aplikasi web yang responsif dan intuitif, serta penerapan machine learning untuk menciptakan solusi yang lebih cerdas. Saya percaya bahwa teknologi harus mudah diakses dan digunakan oleh semua orang, dan itulah yang saya usahakan dalam setiap proyek yang saya kerjakan.
           </p>
 
           <h4 class="text-xl font-bold text-gray-800  mb-4">
